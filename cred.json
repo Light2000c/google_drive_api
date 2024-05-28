@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "logical-river-423212-k2",
+  "private_key_id": "dd5db7449312df19d33b7542a4bd77936f016aed",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDPN+zYbh9mIc+k\n5QOt8XsgsL5O+Wugg8cHLL58nlxCGTuc5HrwN2j6MLBNshxilxbtiVdM56O/mlDR\nKvJHySD8pr+tCF+5TK5UOXXHYsTCHEV1zD93FnOtYTMeICwy2mRex1lfwP1ALY9t\nzeUeaaxW5wSlhSljf3aC8wju07Hz6LmUogH2m7s1lr+0rLIVtEWCTTrK2ajN1Pg5\nRbldu6by3PFpRuZGJtQV+ghbZmUPLP/hMlH9cwe3D9HFpl7lYBiT/tlddEZmvtHQ\nGNEnHCxJGt23B7Oh4FLVUtoc34duA/rnYVbi8hiqTKWqhTunAmGdul86gSZnfdI9\nLnYH2aD3AgMBAAECggEAD2uc/3oqcgJAHohAXthijks4zk23WamUzQ7iWgm62dxg\n2EsUbv3gnQW0iQOhIyEVPrYCviFayS5lpzsn7nmkL8kE6I5/+R0gt/nSrvTFqaBK\n9votGuKb1yItmKdSQrKH15nEJ+EHt5fsXYJ982ZvwcPNT7f6HYJlwlbtqkAstPbR\nOf5G+T0DXEy2xLhYuRY6u3KmE8MLQHClUgmB0NOLouc2Ica3VsMm5GxhOi0fmEKH\nlpmjiSKdKE2lh75fA+IckjANe5Vf+B7rSTML2ud2Y5bxHknYa8/VsFs+Wt+VdUdC\nXo07TjCu+z3ElwdpcDUA76qluNJtzNockQuSByK3EQKBgQD6hoZdiqE8tKAcmLp0\n+2DEZEdXgCeREA+nWW2fs8nVVsFIccif04qtMBVeJBRuduZrt8cVhfgT1BxZhOyd\nbBV5+MWJVyC7L3tpvDQ9+rXgiUCKUza9WxDS3DBLegAaw4x2n45NzybxjIEYUmz6\nR1Cunpd8Da5PW+v2jhmNrhxPGQKBgQDTvyJ3xvJTmhpT4IUjdt7uQ3tV9rQIwYDG\nXdUQQBpsOb9TdYhmY8ga88oEhj+n4+i7eJBXJOdU8n+uxVLir/sSSAuBR9fK934E\nmbpr6Z0vt2JmAyEUNvHa+6h6Q3Jh9wOU+5NRi68qetKltfL2R14StJ7Z9ug5S0x+\nxB+crG1CjwKBgE5qBuqGdrtKigcJYus0t3AhNxdTPI8yKMQnwKFJI/aLpgnn23Tz\nQKe+siF6R47f1nWG22CIQ0LplEoMygboCrzXufSn+c29KfLJfsybiYwTSclCDJMu\nStDFLLSjJh86b9+9R0xhd34JjWqwef3Ijp9pcl7Y5WNfkTbl+WeYRLIZAoGBAJDd\nslIp/T4vLxX1hID34Zs29dmhOBjJcjXEmnFMugcTFw+dWJ1cZNnzsmGYC1LsvRwN\nZwsHx3C5m5tRitxmM6qVObHQGhXVbxTsq7sKkCzGFP7f4zC2So9cHy7OmCHn4j56\nQ5bFryir8RPIQJo3x2eaxRcwMj6IgqQzv8DrwrCHAoGAOq/ocYI+ivulE49iRrD4\nG9LhpDYTU9Ak7eMWQA8oFay3zF/feSAgECNw8tQuqWxopWJgPDrt37q0UYZTEB0+\nMgFTDcM6ideOuT2Qv0u3VI/oZGawY764iGVYft3Qp1pQ9I6hFqO6r6pU2GZqmDjz\nw3eohM6ESCdSIGHToDP7jfE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "app-file@logical-river-423212-k2.iam.gserviceaccount.com",
+  "client_id": "115948164291512015274",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/app-file%40logical-river-423212-k2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
