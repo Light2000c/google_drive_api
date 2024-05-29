@@ -37,19 +37,36 @@ module.exports = {
 
         upload(req, res, async function (err) {
 
+            let data = req.body;
+
+            // console.log(data);
+
+            if (!data.firstname || !data.lastname) {
+                return res.json({
+                    status: "fail",
+                    statusText: "Invalid data was sent in the request."
+                });
+            }
+
+            
+
 
             if (err instanceof multer.MulterError) {
                 console.log("A Multer error occurred when uploading.");
             } else if (err) {
                 console.log("An unknown error occurred when uploading.");
+                return res.json({
+                    status: 400,
+                    message: "failed",
+                })
             }
 
             console.log("files ==> ", req.files)
 
 
-            const selfieImage = getFileByName("image1.jpg", req);
-            const frontImage = getFileByName("image2.jpg", req);
-            const backImage = getFileByName("image3.jpg", req);
+            const selfieImage = getFileByName(`${data.firstname}_${data.lastname}_selfieImg.jpg`, req);
+            const frontImage = getFileByName(`${data.firstname}_${data.lastname}_frontImg.jpg`, req);
+            const backImage = getFileByName(`${data.firstname}_${data.lastname}_backImg.jpg`, req);
 
             try {
 
@@ -59,13 +76,16 @@ module.exports = {
 
 
                 return res.json({
-                    status: 1,
+                    status: 200,
                     message: "success",
                 })
 
 
             } catch (err) {
-                console.log("Error ==> ", err);
+                return res.json({
+                    status: 400,
+                    message: "failed",
+                })
             }
 
         })
